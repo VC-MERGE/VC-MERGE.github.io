@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head> 
+
+<title id="title"> Bootcamp Selector ! </title>
+<linK rel="stylesheet" type="text/css" href="main.css">
+</head>
+
+<body>
+<h1>
+Welcome to the bootcamp selector!
+</h1>
+<br/>
+
+<p><center><b>Within this application you will find a perfect coding bootcamp match!</b></center></p>
+</br>
+<div class="nav-container">
+  <ul class="nav">
+    <li class="active">
+      <a href="#">
+        <span class="icon-home"></span>
+        <span class="text">home</span>
+      </a>
+    </li>
+    <li>
+      <a href="#">
+        <span class="icon-about"></span>
+        <span class="text">about</span>
+      </a>
+      </li>
+    <li>
+      <a href="#">
+        <span class="icon-camp"></span>
+        <span class="text">CodeCamps</span>
+      </a>
+      </li>
+  </ul>
+</div>
+</br>
+<script>
+$('li').click(function(){
+  
+  $(this).addClass('active')
+       .siblings()
+       .removeClass('active');
+    
+});
+</script>
+</body>
+
+</html>
