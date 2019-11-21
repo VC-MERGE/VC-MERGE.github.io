@@ -111,3 +111,12 @@ span[class^="icon"] {
     left: 8px;
   }
 }
+.forma {
+  background-color: #3f32b9;
+  text-align: center;
+  border-radius: 10%;
+  opacity: 0.7;
+  color: gold;
+  border: 1.5px;
+  border-color: gold;
+}
