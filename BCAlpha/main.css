@@ -1,6 +1,9 @@
 body {
+  display: flexbox;
   background-image: url("img/codeselector_logo_large.png");
   background-color: rgb(33, 54, 126);
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 18px;
 }
 
 * {
